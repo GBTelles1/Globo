@@ -3,6 +3,7 @@ body {
     font-family: 'Encode Sans', sans-serif;
     border-top: 1px;
     width: 100%;
+    justify-content: center;
 }
 
 .all_things {
@@ -17,19 +18,43 @@ body {
 .menu_cont {
     display: flex;
     flex-flow: column nowrap;
-    /*background-color: #e7a2a2*/
+    background-color: #e7a2a2;
     justify-content: space-around;
 }
 
 .menu {
     display: flex;
     flex-flow: row nowrap;
+    background-color: #ff6a6a;
     justify-content: space-evenly;
 }
 
-
-
 .contents {
     display: flex;
+    width: 50vw;
     justify-content: space-around;
+    margin-top: 10px;
+}
+
+#big_title {
+    font-size: 52px;
+    font-weight: bold;
+    color: #c4160c;
+}
+
+#subtitle {
+    font-size: 18px;
+    color: #303134;
+}
+
+.mat_sec {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 12px;
+    width: 240px;
+    height: 128px;
 }
