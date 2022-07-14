@@ -1,0 +1,35 @@
+body {
+    background-color: #f5f6f7;
+    font-family: 'Encode Sans', sans-serif;
+    border-top: 1px;
+    width: 100%;
+}
+
+.all_things {
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    /*align-content: space-around;*/
+    align-items: center;
+}
+
+.menu_cont {
+    display: flex;
+    flex-flow: column nowrap;
+    /*background-color: #e7a2a2*/
+    justify-content: space-around;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+
+
+.contents {
+    display: flex;
+    justify-content: space-around;
+}
