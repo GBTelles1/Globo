@@ -2,7 +2,7 @@ body {
     background-color: #f5f6f7;
     font-family: 'Encode Sans', sans-serif;
     border-top: 1px;
-    width: 100%;
+    width: 100vw;
     justify-content: center;
 }
 
@@ -47,7 +47,20 @@ body {
     color: #303134;
 }
 
+.mats {
+    display: flex;
+    align-items: baseline;
+    border-left: 1px;
+    border-left-color: #ebedef;
+}
+
 .mat_sec {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.mat_terc {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
@@ -57,4 +70,21 @@ img {
     border-radius: 12px;
     width: 240px;
     height: 128px;
+}
+
+.sub {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.verde {
+    color: green;
+}
+
+.vermelho {
+    color: red;
+}
+
+.amarelo {
+    color: yellow;
 }
