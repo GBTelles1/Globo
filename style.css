@@ -9,6 +9,7 @@ body {
 .all_things {
     display: flex;
     height: 100vh;
+    width: auto;
     flex-flow: column nowrap;
     justify-content: space-around;
     /*align-content: space-around;*/
@@ -18,7 +19,7 @@ body {
 .menu_cont {
     display: flex;
     flex-flow: column nowrap;
-    background-color: #e7a2a2;
+    /* background-color: #e7a2a2; */
     justify-content: space-around;
 }
 
@@ -31,7 +32,7 @@ body {
 
 .contents {
     display: flex;
-    width: 50vw;
+    width: 1250px;
     justify-content: space-around;
     margin-top: 10px;
 }
@@ -49,21 +50,32 @@ body {
 
 .mats {
     display: flex;
+    justify-content: space-around;
     align-items: baseline;
-    border-left: 1px;
-    border-left-color: #ebedef;
+    border-left: 1px solid #ebedef;
+}
+
+.mat_prin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .mat_sec {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
+    margin: 0 5px 0 5px;
+    padding-left: 8px;
 }
 
 .mat_terc {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-evenly;
+    margin: 0 10px 0 5px;
+    border-left: 1px solid #ebedef;
+    padding-left: 10px;
 }
 
 img {
@@ -86,5 +98,5 @@ img {
 }
 
 .amarelo {
-    color: yellow;
+    color: rgba(209, 209, 21, 0.788);
 }
