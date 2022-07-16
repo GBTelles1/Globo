@@ -1,5 +1,5 @@
 body {
-    background-color: #f5f6f7;
+    background-color: #ffffff;
     font-family: 'Encode Sans', sans-serif;
     border-top: 1px;
     width: 100vw;
@@ -26,8 +26,13 @@ body {
 .menu {
     display: flex;
     flex-flow: row nowrap;
-    background-color: #ff6a6a;
+    /* background-color: #ff6a6a; */
     justify-content: space-evenly;
+    border-top: 1px solid #f5f6f7;
+    border-bottom: 1px solid #f5f6f7;
+    border-top-width: 100%;
+    border-bottom-width: 100%;
+    padding: 10px;
 }
 
 .contents {
@@ -59,6 +64,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.prin {
+    border-bottom: 1px solid #ebedef;
+    padding-bottom: 15px;
 }
 
 .mat_sec {
